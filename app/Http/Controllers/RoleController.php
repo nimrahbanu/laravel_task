@@ -50,10 +50,9 @@ class RoleController extends Controller
                 'error' => $e->getMessage(),
             ], 500);
         }
-    }
+    } 
 
-    /**
-     * Display the specified resource.
+    /**  Display the specified resource.
      */
     public function show(Role $role)
     { //view file
